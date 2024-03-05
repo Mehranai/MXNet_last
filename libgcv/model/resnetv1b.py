@@ -492,7 +492,7 @@ def resnet152_v1c(pretrained=False, root='~/.mxnet/models', ctx=cpu(0), **kwargs
                                              root=root), ctx=ctx)
     return model
 
-def resnet50_v1d(pretrained=False, root='~/Desktop/Human-Object-Relation-Network-master/.mxnet/models', ctx=cpu(0), name_prefix='resnetv1d_', **kwargs):
+def resnet50_v1d(pretrained=False, root='/content/MXNet_last/.mxnet/models', ctx=cpu(0), name_prefix='resnetv1d_', **kwargs):
     """Constructs a ResNetV1d-50 model.
 
     Parameters
@@ -518,7 +518,7 @@ def resnet50_v1d(pretrained=False, root='~/Desktop/Human-Object-Relation-Network
                                              root=root), ctx=ctx)
     return model
 
-def resnet101_v1d(pretrained=False, root='~/Desktop/Human-Object-Relation-Network-master/.mxnet/models', ctx=cpu(0), **kwargs):
+def resnet101_v1d(pretrained=False, root='/content/MXNet_last/.mxnet/models', ctx=cpu(0), **kwargs):
     """Constructs a ResNetV1d-50 model.
 
     Parameters
@@ -544,7 +544,7 @@ def resnet101_v1d(pretrained=False, root='~/Desktop/Human-Object-Relation-Networ
                                              root=root), ctx=ctx)
     return model
 
-def resnet152_v1d(pretrained=False, root='~/Desktop/Human-Object-Relation-Network-master/.mxnet/models', ctx=cpu(0), **kwargs):
+def resnet152_v1d(pretrained=False, root='/content/MXNet_last/.mxnet/models', ctx=cpu(0), **kwargs):
     """Constructs a ResNetV1d-50 model.
 
     Parameters
